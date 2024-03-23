@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="project.css" />
+    <title>Hello!!</title>
+  </head>
+  <body>
+    <header class="container">
+      <h1 class="container">
+        Get to Know You Survey: Discovering the Layers of Who You Are
+      </h1>
+      <p>
+        Welcome to our "Get to Know You Survey"! We believe that understanding
+        each other on a deeper level is essential for building meaningful
+        connections and fostering a supportive community. This survey is
+        designed to uncover the unique facets of your personality, interests,
+        and experiences. By sharing your thoughts and preferences with us,
+        you'll not only help us get to know you better but also contribute to
+        creating a richer and more inclusive environment for everyone. So, let's
+        dive in and explore the layers of who you are!
+      </p>
+    </header>
+    <main class="container">
+      <article>
+        <form action="https://httpbin.org/get" method="get" class="form">
+          <fieldset>
+            <legend>General Information</legend>
+            <label for="name">Enter Your Name: </label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              autocomplete="on"
+              autofocus
+            />
+            <br /><br />
+
+            <label for="date">Enter Your Date Of Birth:</label>
+            <input type="date" id="date" name="date" />
+            <br /><br />
+
+            <label for="gender">Assigned Gender At Birth: </label>
+            <select name="interests" id="interests">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Intersex">Intersex</option>
+              <option value="Prefer Not To Say">Prefer Not To Say</option>
+            </select>
+            <br /><br />
+
+            <label for="Nationality">Enter Your Nationality: </label>
+            <input
+              type="text"
+              name="Nationality"
+              id="Nationality"
+              autocomplete="on"
+            />
+            <br /><br />
+
+            <label for="city">Enter Your Current City: </label>
+            <input type="text" name="city" id="city" autocomplete="on" />
+            <br /><br />
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Interests And Personality</legend>
+            <label for="interests">
+              Which Of The Following Activities Do You Enjoy? (Select All That
+              Apply):
+            </label>
+            <br />
+            <input type="checkbox" name="Reading" id="Reading" />
+            <label for="Reading">Reading</label>
+            <br />
+            <input type="checkbox" name="Writing" id="Writing" />
+            <label for="Writing">Writing</label>
+            <br />
+            <input type="checkbox" name="Sports" id="Sports" />
+            <label for="Sports">Sports</label>
+            <br />
+            <input type="checkbox" name="Cooking" id="Cooking" />
+            <label for="Cooking">Cooking</label>
+            <br />
+            <input type="checkbox" name="Gaming" id="Gaming" />
+            <label for="Gaming">Gaming</label>
+            <br />
+            <input type="checkbox" name="Gardening" id="Gardening" />
+            <label for="Gardening">Gardening</label>
+            <br />
+            <input type="checkbox" name="ArtsAndCrafts" id="ArtsAndCrafts" />
+            <label for="ArtsAndCrafts">Arts And Crafts</label>
+            <br />
+            <input type="checkbox" name="Music" id="Music" />
+            <label for="Music">Music</label>
+            <br />
+            <input type="checkbox" name="Traveling" id="Traveling" />
+            <label for="Traveling">Traveling</label>
+            <br />
+            <input type="checkbox" name="Volunteering" id="Volunteering" />
+            <label for="Volunteering">Volunteering</label>
+            <br />
+            <input type="checkbox" name="extra" id="extra" />
+            <label for="extra">Others</label>
+            <br /><br />
+
+            <label for="describe">
+              How Would You Describe Yourself In One Word:
+            </label>
+            <input type="text" name="describe" id="describe" />
+            <br /><br />
+
+            <label for="qualities">
+              Which Of The Following Qualities Do You Value Most In Others?
+              (Select All That Apply):
+            </label>
+            <br />
+            <input type="checkbox" name="Honesty" id="Honesty" />
+            <label for="Honesty">Honesty</label>
+            <br />
+            <input type="checkbox" name="Kindness" id="Kindness" />
+            <label for="Kindness">Kindness</label>
+            <br />
+            <input type="checkbox" name="Intelligence" id="Intelligence" />
+            <label for="Intelligence">Intelligence</label>
+            <br />
+            <input type="checkbox" name="Creativity" id="Creativity" />
+            <label for="Creativity">Creativity</label>
+            <br />
+            <input type="checkbox" name="SenseOfHumor" id="SenseOfHumor" />
+            <label for="SenseOfHumor">Sense Of Humor</label>
+            <br />
+            <input type="checkbox" name="Loyaty" id="Loyaty" />
+            <label for="Loyaty">Loyaty</label>
+            <br />
+            <input type="checkbox" name="Optimism" id="Optimism" />
+            <label for="Optimism">Optimism</label>
+            <br />
+            <input type="checkbox" name="Empathy" id="Empathy" />
+            <label for="Empathy">Empathy</label>
+            <br />
+            <input type="checkbox" name="Resilience" id="Resilience" />
+            <label for="Resilience">Resilience</label>
+            <br />
+            <input type="checkbox" name="OpenMindedness" id="OpenMindedness" />
+            <label for="OpenMindedness">Open Mindedness</label>
+            <br />
+            <input type="checkbox" name="Others" id="Others" />
+            <label for="Others">Others</label>
+            <br /><br />
+
+            <label for="entertainment">
+              Which Forms Of Entertainment Do You Enjoy? (Select All That
+              Apply):
+            </label>
+            <br />
+            <input type="checkbox" name="Movies" id="Movies" />
+            <label for="Movies">Movies</label>
+            <br />
+            <input type="checkbox" name="TVShows" id="TVShows" />
+            <label for="TVShows">TV Shows</label>
+            <br />
+            <input type="checkbox" name="Theater" id="Theater" />
+            <label for="Theater">Theater</label>
+            <br />
+            <input type="checkbox" name="Concerts" id="Concerts" />
+            <label for="Concerts">Concerts</label>
+            <br />
+            <input type="checkbox" name="StandupComedy" id="StandupComedy" />
+            <label for="StandupComedy">Standup Comedy</label>
+            <br />
+            <input type="checkbox" name="Festivals" id="Festivals" />
+            <label for="Festivals">Festivals</label>
+            <br />
+            <input type="checkbox" name="Museums" id="Museums" />
+            <label for="Museums">Museums</label>
+            <br />
+            <input type="checkbox" name="ArtGallaries" id="ArtGallaries" />
+            <label for="ArtGallaries">Art Gallaries</label>
+            <br /><br />
+
+            <label for="socialmedia">
+              Which Social Media Platforms Do You Use Regularly? (Select All
+              That Apply):
+            </label>
+            <br />
+            <input type="checkbox" name="Facebook" id="Facebook" />
+            <label for="Facebook">Facebook</label>
+            <br />
+            <input type="checkbox" name="Instagram" id="Instagram" />
+            <label for="Instagram">Instagram</label>
+            <br />
+            <input type="checkbox" name="Twitter" id="Twitter" />
+            <label for="Twitter">Twitter</label>
+            <br />
+            <input type="checkbox" name="LinkedIn" id="LinkedIn" />
+            <label for="LinkedIn">LinkedIn</label>
+            <br />
+            <input type="checkbox" name="Snapchat" id="Snapchat" />
+            <label for="Snapchat">Snapchat</label>
+            <br />
+            <input type="checkbox" name="TikTok" id="TikTok" />
+            <label for="TikTok">TikTok</label>
+            <br />
+            <input type="checkbox" name="Pinterest" id="Pinterest" />
+            <label for="Pinterest">Pinterest</label>
+            <br />
+            <input type="checkbox" name="Reddit" id="Reddit" />
+            <label for="Reddit">Reddit</label>
+            <br /><br />
+
+            <label>Are You An Introvert Or An Extrovert?</label>
+            <input
+              type="radio"
+              name="introvert"
+              id="introvert"
+              value="introvert"
+            />
+            <label for="introvert">Introvert</label>
+            <input
+              type="radio"
+              name="introvert"
+              id="Extrovert"
+              value="Extrovert"
+            />
+            <label for="Extrovert">Extrovert</label>
+            <br /><br />
+
+            <label>Which Climate Do You Prefer?</label>
+            <input
+              type="radio"
+              name="climate"
+              id="WarmWeather"
+              value="WarmWeather"
+            />
+            <label for="WarmWeather">Warm Weather</label>
+            <input
+              type="radio"
+              name="climate"
+              id="ColdWeather"
+              value="Cold Weather"
+            />
+            <label for="ColdWeather">Cold Weather</label>
+            <br /><br />
+
+            <label>Are You A Morning Person Or A Night Person?</label>
+            <input type="radio" name="morning" id="Morning" value="Morning" />
+            <label for="Morning">Morning</label>
+            <input type="radio" name="morning" id="Night" value="Night" />
+            <label for="Night">Night</label>
+            <br /><br />
+
+            <label>Do You Prefer Tea Or Coffee?</label>
+            <input type="radio" name="tea" id="Tea" value="Tea" />
+            <label for="Tea">Tea</label>
+            <input type="radio" name="tea" id="Coffee" value="Coffee" />
+            <label for="Coffee">Coffee</label>
+            <br /><br />
+
+            <label>Are You A Spontaneous Person Or A Planner?</label>
+            <input
+              type="radio"
+              name="person"
+              id="Spontaneous"
+              value="Spontaneous"
+            />
+            <label for="Spontaneous">Spontaneous</label>
+            <input type="radio" name="person" id="Planner" value="Planner" />
+            <label for="Planner">Planner</label>
+            <br /><br />
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Your Favourites</legend>
+            <label for="book"> What Is Your Favourite Book? </label>
+            <input type="text" name="book" id="book" />
+            <br /><br />
+
+            <label for="movie"> What Is Your Favourite Movie? </label>
+            <input type="text" name="movie" id="movie" />
+            <br /><br />
+
+            <label for="food"> What Is Your Favourite Food? </label>
+            <input type="text" name="food" id="food" />
+            <br /><br />
+
+            <label for="traveldestination">
+              What Is Your Favourite Travel Destination?
+            </label>
+            <input
+              type="text"
+              name="traveldestination"
+              id="traveldestination"
+            />
+            <br /><br />
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Work/Education</legend>
+            <label for="occupation">Enter Your Occupation: </label>
+            <input type="text" name="occupation" id="occupationInput" />
+            <br /><br />
+
+            <label for="fieldofstudy"
+              >Enter Your Field Of Study (If Student):</label
+            >
+            <input type="text" name="fieldofstudy" id="fieldofstudy" />
+            <br /><br />
+
+            <label for="motivation"
+              >What Motivates You In Your Career/Education?</label
+            >
+            <input type="text" name="motivation" id="motivation" />
+            <br /><br />
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Travel</legend>
+            <label for="continents">
+              Which Of The Following Continents Have You Visited (Select All
+              That Apply):
+            </label>
+            <br />
+            <input type="checkbox" name="Asia" id="Asia" />
+            <label for="Asia">Asia</label>
+            <br />
+            <input type="checkbox" name="Africa" id="Africa" />
+            <label for="Africa">Africa</label>
+            <br />
+            <input type="checkbox" name="NorthAmerica" id="NorthAmerica" />
+            <label for="NorthAmerica">North America</label>
+            <br />
+            <input type="checkbox" name="SouthAmerica" id="SouthAmerica" />
+            <label for="SouthAmerica">South America</label>
+            <br />
+            <input type="checkbox" name="Europe" id="Europe" />
+            <label for="Europe">Europe</label>
+            <br />
+            <input type="checkbox" name="Australia" id="Australia" />
+            <label for="Australia">Australia</label>
+            <br />
+            <input type="checkbox" name="Antarctica" id="Antarctica" />
+            <label for="Antarctica">Antarctica</label>
+            <br /><br />
+
+            <label for="visitedcountries"
+              >List The Countries You Have Visited:</label
+            >
+            <input
+              type="text"
+              name="visitedcountries"
+              id="visitedcountries"
+              placeholder="Separate countries with commas"
+            />
+            <br /><br />
+          </fieldset>
+          <br />
+
+          <fieldset>
+            <legend>Your Feedback</legend>
+            <label for="feedback"
+              >Do You Have Any Suggestions Or Feedback?</label
+            >
+            <br />
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="30"
+              rows="5"
+              placeholder="Your feedback is valuable to us!"
+            ></textarea>
+            <br /><br />
+          </fieldset>
+          <br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </article>
+    </main>
+    <footer class="container">
+      <p>
+        Thank you for taking the time to complete our survey! Your input is
+        greatly appreciated and will help us improve our services to better
+        serve you and our community. If you have any further questions or would
+        like to get in touch with us, please feel free to contact us at
+        <a href="mailto:info@example.com">info@example.com</a>.
+      </p>
+    </footer>
+  </body>
+</html>

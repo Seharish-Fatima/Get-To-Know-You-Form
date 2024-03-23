@@ -1,0 +1,30 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  color: goldenrod;
+  border: dashed red;
+  border-top: 5px solid green;
+  border-right: 10px dotted blue;
+  border-bottom: 5px ridge blueviolet;
+  font-size: 1.5rem;
+  margin: 1.5em;
+  padding: 1.5em;
+}
+
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+} */
